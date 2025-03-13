@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+padding: 0;
+text-decoration: none;
+color: black;
+}
+
+
+body {
+background-color: rgb(207, 207, 207);
+color: #fff;
+margin: 0;
+
+}
+
+
+#contenedor {
+width: 1220px;
+margin: auto;
+margin-left: 0;
+margin-right: 0;
+
+
+overflow: hidden;
+}
+
+header {
+height: 150px;
+background: #000;
+}
+
+
+header h1 {
+font-size: 50px;
+text-align: center;
+Line-height: 150px;
+font-family: sans-serif, Arial, Helvetica;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+list-style: none; padding: 0;
+background:#092327;
+width: 100%;
+
+margin: auto;
+}
+
+.menu li {
+
+text-decoration: none;
+color: rgb(255, 0, 0);
+padding: 20px;
+display: inline-block;
+text-align: center;
+}
+
+.menu a {
+
+color: red;
+
+}
+
+a{
+ 
+  color: red;
+}
+
+a:hover {
+
+  color: rgb(32, 255, 244);
+}
+
+.menu li a:hover{
+color: rgb(32, 255, 244);
+}
+
+.menu li a:active{
+  color: rgb(255, 188, 188);
+}
+
+#Contenido{
+width: 1300px;
+ height: 1000px ;
+ width: 950px;
+    height: 1000px;
+    float: left;
+    background: rgb(255, 255, 255);
+
+    margin-right: 10px;
+
+    overflow: hidden;
+
+}
+
+#Contenido p{
+    font-size: 20px;
+    height: 100px;
+    padding: 10px;
+}
+
+#Contenido p{
+font-size: 20px;
+height: 100px;
+padding: 10px;
+}
+
+.slider{
+width: 950px;
+height: auto;
+z-index: 0;
+overflow: hidden;
+
+}
+
+.sli {
+  width: 950px;
+display: flex;
+margin-left: -100;
+
+
+}
+
+.sli li{
+
+  width: 100%;
+  list-style: none;
+
+}
+
+.sli img {
+  width: 950px;
+  z-index: 0;
+  height: 650px;
+}
+
+aside{
+width: 250px;
+height: 500px;
+background: rgb(255, 255, 255);
+margin-top: 10px;
+float: right;
+color: rgb(255, 255, 255);
+}
+
+aside img{
+font-size: 40px;
+text-align: center;
+height: 100px;
+margin-top: 150px;
+
+width: 100px;
+
+}
+
+footer{
+background: rgb(230, 230, 230);
+clear: both;
+height: 100px;
+}
+
+footer h2{
+
+font-size: 40px;
+ text-align: center; 
+ padding: 20px;
+  font-style: italic;
+
+}
+
+
+.Flecha{
+
+background-color: rgba(0, 0, 0, 0);
+border: none;
+
+align-content: center;
+}
+
+#Atras{
+
+margin-right: 700px;
+float: left;
+}
+.Flecha img{
+
+  width: 100px;
+
+}
